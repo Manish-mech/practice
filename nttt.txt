@@ -1,0 +1,15 @@
+get method - request data to server from a specified resource
+Post mehtod - send data to server for creating/updating the resources.
+put mthod - put request are indempoted(it will give the same result, if call multiple times)
+head method - request data to server without response body.(head request is useful to check, what a get request will return when we will make a get request)
+connect method - use to make two way communication with the requested resources.
+option method - describe the communication option for the target resources.
+trace method - used to perform a message loop back test. (useful for debugging purposes)
+
+Status code ----
+ identify weather the request is succesfully sent or not.
+100 or 101 - is switching protocols, means client hava asked to chage the protocols, and server is agreed to do so.
+2XX - request is successful
+3XX - status code for redirecting request.
+4XX - client error
+5XX - Server error
